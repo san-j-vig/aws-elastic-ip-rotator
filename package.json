@@ -1,0 +1,20 @@
+{
+  "name": "aws-elastic-ip-rotator",
+  "version": "1.0.0",
+  "description": "This will rotate elastic ip address of an instance based on instance-id provided",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svig1/aws-elastic-ip-rotator.git"
+  },
+  "author": "Sanjay Vig",
+  "license": "ISC",
+  "homepage": "https://github.com/svig1/aws-elastic-ip-rotator#readme",
+  "dependencies": {
+    "aws-sdk": "^2.600.0",
+    "lodash": "^4.17.15"
+  }
+}
